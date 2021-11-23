@@ -14847,7 +14847,7 @@ a.anchor-link {
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>acc cutoff =  0.4083333333333333
+<pre>acc cutoff =  0.4
 </pre>
 </div>
 </div>
@@ -14959,13 +14959,13 @@ subj4 nan responses = 0
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>/var/folders/9d/64h6bpdx6wld4v9tw1jq1yqr0000gp/T/ipykernel_2627/2322959653.py:47: RuntimeWarning: Mean of empty slice
+<pre>/var/folders/9d/64h6bpdx6wld4v9tw1jq1yqr0000gp/T/ipykernel_2690/2322959653.py:47: RuntimeWarning: Mean of empty slice
   learned_rt_resps[2,i] = np.nanmean(testData.rt[np.logical_and(np.logical_and(testData.cat_cue==learned_cat,testData.run==(i+1)),testData.score==3)])
-/var/folders/9d/64h6bpdx6wld4v9tw1jq1yqr0000gp/T/ipykernel_2627/2322959653.py:46: RuntimeWarning: Mean of empty slice
+/var/folders/9d/64h6bpdx6wld4v9tw1jq1yqr0000gp/T/ipykernel_2690/2322959653.py:46: RuntimeWarning: Mean of empty slice
   learned_rt_resps[1,i] = np.nanmean(testData.rt[np.logical_and(np.logical_and(testData.cat_cue==learned_cat,testData.run==(i+1)),testData.score==2)])
-/var/folders/9d/64h6bpdx6wld4v9tw1jq1yqr0000gp/T/ipykernel_2627/2322959653.py:49: RuntimeWarning: Mean of empty slice
+/var/folders/9d/64h6bpdx6wld4v9tw1jq1yqr0000gp/T/ipykernel_2690/2322959653.py:49: RuntimeWarning: Mean of empty slice
   novel_rt_resps[1,i] = np.nanmean(testData.rt[np.logical_and(np.logical_and(testData.cat_cue==novel_cat,testData.run==(i+1)),testData.score==2)])
-/var/folders/9d/64h6bpdx6wld4v9tw1jq1yqr0000gp/T/ipykernel_2627/2322959653.py:50: RuntimeWarning: Mean of empty slice
+/var/folders/9d/64h6bpdx6wld4v9tw1jq1yqr0000gp/T/ipykernel_2690/2322959653.py:50: RuntimeWarning: Mean of empty slice
   novel_rt_resps[2,i] = np.nanmean(testData.rt[np.logical_and(np.logical_and(testData.cat_cue==novel_cat,testData.run==(i+1)),testData.score==3)])
 </pre>
 </div>
@@ -15061,13 +15061,13 @@ subj13 nan responses = 0
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>/var/folders/9d/64h6bpdx6wld4v9tw1jq1yqr0000gp/T/ipykernel_2627/2322959653.py:34: RuntimeWarning: Mean of empty slice
+<pre>/var/folders/9d/64h6bpdx6wld4v9tw1jq1yqr0000gp/T/ipykernel_2690/2322959653.py:34: RuntimeWarning: Mean of empty slice
   learned_rt_block[i] = np.nanmean(testData.rt[np.logical_and(testData.cat_cue==learned_cat,testData.run==(i+1))])
-/var/folders/9d/64h6bpdx6wld4v9tw1jq1yqr0000gp/T/ipykernel_2627/2322959653.py:35: RuntimeWarning: Mean of empty slice
+/var/folders/9d/64h6bpdx6wld4v9tw1jq1yqr0000gp/T/ipykernel_2690/2322959653.py:35: RuntimeWarning: Mean of empty slice
   novel_rt_block[i] = np.nanmean(testData.rt[np.logical_and(testData.cat_cue==novel_cat,testData.run==(i+1))])
-/var/folders/9d/64h6bpdx6wld4v9tw1jq1yqr0000gp/T/ipykernel_2627/2322959653.py:45: RuntimeWarning: Mean of empty slice
+/var/folders/9d/64h6bpdx6wld4v9tw1jq1yqr0000gp/T/ipykernel_2690/2322959653.py:45: RuntimeWarning: Mean of empty slice
   learned_rt_resps[0,i] = np.nanmean(testData.rt[np.logical_and(np.logical_and(testData.cat_cue==learned_cat,testData.run==(i+1)),testData.score==1)])
-/var/folders/9d/64h6bpdx6wld4v9tw1jq1yqr0000gp/T/ipykernel_2627/2322959653.py:48: RuntimeWarning: Mean of empty slice
+/var/folders/9d/64h6bpdx6wld4v9tw1jq1yqr0000gp/T/ipykernel_2690/2322959653.py:48: RuntimeWarning: Mean of empty slice
   novel_rt_resps[0,i] = np.nanmean(testData.rt[np.logical_and(np.logical_and(testData.cat_cue==novel_cat,testData.run==(i+1)),testData.score==1)])
 </pre>
 </div>
@@ -15314,9 +15314,9 @@ Familiar vs unfamiliar acc ttest:  [0.843874 0.40872 ]
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>/var/folders/9d/64h6bpdx6wld4v9tw1jq1yqr0000gp/T/ipykernel_2627/1174606237.py:5: RuntimeWarning: Mean of empty slice
+<pre>/var/folders/9d/64h6bpdx6wld4v9tw1jq1yqr0000gp/T/ipykernel_2690/1174606237.py:5: RuntimeWarning: Mean of empty slice
   print(&#34;Familiar vs unfamiliar acc ttest: &#34;,np.round(stats.ttest_rel(np.nanmean(meanAcc_learned,1),np.nanmean(meanAcc_novel,1),nan_policy=&#39;omit&#39;),6))
-/var/folders/9d/64h6bpdx6wld4v9tw1jq1yqr0000gp/T/ipykernel_2627/1174606237.py:10: RuntimeWarning: Mean of empty slice
+/var/folders/9d/64h6bpdx6wld4v9tw1jq1yqr0000gp/T/ipykernel_2690/1174606237.py:10: RuntimeWarning: Mean of empty slice
   plt.errorbar([0,1],[np.nanmean(meanAcc_learned),np.nanmean(meanAcc_novel)],yerr=[np.nanstd(np.nanmean(meanAcc_learned,1))/np.sqrt(nsubj),np.nanstd(np.nanmean(meanAcc_novel,1))/np.sqrt(nsubj)],color=&#39;k&#39;)
 </pre>
 </div>
@@ -15863,9 +15863,9 @@ Familiar vs unfamiliar rt ttest:  [-1.129626  0.272   ]
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>/var/folders/9d/64h6bpdx6wld4v9tw1jq1yqr0000gp/T/ipykernel_2627/1322923108.py:4: RuntimeWarning: Mean of empty slice
+<pre>/var/folders/9d/64h6bpdx6wld4v9tw1jq1yqr0000gp/T/ipykernel_2690/1322923108.py:4: RuntimeWarning: Mean of empty slice
   print(&#34;Familiar vs unfamiliar rt ttest: &#34;,np.round(stats.ttest_rel(np.nanmean(meanRT_learned,1),np.nanmean(meanRT_novel,1),nan_policy=&#39;omit&#39;),6))
-/var/folders/9d/64h6bpdx6wld4v9tw1jq1yqr0000gp/T/ipykernel_2627/1322923108.py:9: RuntimeWarning: Mean of empty slice
+/var/folders/9d/64h6bpdx6wld4v9tw1jq1yqr0000gp/T/ipykernel_2690/1322923108.py:9: RuntimeWarning: Mean of empty slice
   plt.errorbar([0,1],[np.nanmean(meanRT_learned),np.nanmean(meanRT_novel)],yerr=[np.nanstd(np.nanmean(meanRT_learned,1))/np.sqrt(nsubj),np.nanstd(np.nanmean(meanRT_novel,1))/np.sqrt(nsubj)],color=&#39;k&#39;)
 </pre>
 </div>
@@ -15894,7 +15894,7 @@ Familiar vs unfamiliar rt ttest:  [-1.129626  0.272   ]
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[26]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[25]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#plot mean respone times split by responses</span>
@@ -15961,13 +15961,13 @@ Unfamiliar anova:  F_onewayResult(statistic=6.726655339494551, pvalue=0.00215976
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>/var/folders/9d/64h6bpdx6wld4v9tw1jq1yqr0000gp/T/ipykernel_2627/1615376344.py:8: RuntimeWarning: Mean of empty slice
+<pre>/var/folders/9d/64h6bpdx6wld4v9tw1jq1yqr0000gp/T/ipykernel_2690/1615376344.py:8: RuntimeWarning: Mean of empty slice
   print(&#34;Familiar anova: &#34;,stats.f_oneway(nan_scrub(np.nansum(rtData_learned,2)[:,0]),nan_scrub(np.nanmean(rtData_learned,2)[:,1]),nan_scrub(np.nanmean(rtData_learned,2)[:,2]),axis=0))
-/var/folders/9d/64h6bpdx6wld4v9tw1jq1yqr0000gp/T/ipykernel_2627/1615376344.py:10: RuntimeWarning: Mean of empty slice
+/var/folders/9d/64h6bpdx6wld4v9tw1jq1yqr0000gp/T/ipykernel_2690/1615376344.py:10: RuntimeWarning: Mean of empty slice
   print(&#34;Unfamiliar anova: &#34;,stats.f_oneway(nan_scrub(np.nansum(rtData_novel,2)[:,0]),nan_scrub(np.nanmean(rtData_novel,2)[:,1]),nan_scrub(np.nanmean(rtData_novel,2)[:,2]),axis=0))
-/var/folders/9d/64h6bpdx6wld4v9tw1jq1yqr0000gp/T/ipykernel_2627/1615376344.py:13: RuntimeWarning: Mean of empty slice
+/var/folders/9d/64h6bpdx6wld4v9tw1jq1yqr0000gp/T/ipykernel_2690/1615376344.py:13: RuntimeWarning: Mean of empty slice
   rtData_learned_blockmean = np.nanmean(rtData_learned,2)
-/var/folders/9d/64h6bpdx6wld4v9tw1jq1yqr0000gp/T/ipykernel_2627/1615376344.py:14: RuntimeWarning: Mean of empty slice
+/var/folders/9d/64h6bpdx6wld4v9tw1jq1yqr0000gp/T/ipykernel_2690/1615376344.py:14: RuntimeWarning: Mean of empty slice
   rtData_novel_blockmean = np.nanmean(rtData_novel,2)
 </pre>
 </div>
@@ -15996,7 +15996,7 @@ Unfamiliar anova:  F_onewayResult(statistic=6.726655339494551, pvalue=0.00215976
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[27]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[26]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">######## Look at blockwise performance on the association task ########</span>
@@ -16010,7 +16010,7 @@ Unfamiliar anova:  F_onewayResult(statistic=6.726655339494551, pvalue=0.00215976
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[28]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[27]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#ttests between condition means per block</span>
@@ -16093,7 +16093,7 @@ Familiar vs unfamiliar block 3 acc ttest:  [-0.201517  0.84233 ]
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[29]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[28]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#exclude underperformers in the first block</span>
@@ -16163,7 +16163,7 @@ Familiar vs unfamiliar block 1 acc ttest:  [-0.55035   0.586444]
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[30]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[29]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#look at competitor vs noncompetitor</span>
@@ -16224,7 +16224,7 @@ Familiar vs unfamiliar block 1 acc ttest:  [-0.55035   0.586444]
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[31]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[30]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">####### check that gazebos arent just easier to learn than beaches ######</span>
@@ -16253,7 +16253,7 @@ Familiar vs unfamiliar block 1 acc ttest:  [-0.55035   0.586444]
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>/var/folders/9d/64h6bpdx6wld4v9tw1jq1yqr0000gp/T/ipykernel_2627/3303668206.py:2: RuntimeWarning: Mean of empty slice
+<pre>/var/folders/9d/64h6bpdx6wld4v9tw1jq1yqr0000gp/T/ipykernel_2690/3303668206.py:2: RuntimeWarning: Mean of empty slice
   print(&#39;beachs vs gaxebos ttest: &#39;,stats.ttest_rel(np.nanmean(meanAcc_learned[category_learned==0],1),np.nanmean(meanAcc_learned[category_learned==1],1),nan_policy=&#39;omit&#39;))
 </pre>
 </div>
@@ -16269,7 +16269,7 @@ Familiar vs unfamiliar block 1 acc ttest:  [-0.55035   0.586444]
 <pre>
 <span class="ansi-red-fg">---------------------------------------------------------------------------</span>
 <span class="ansi-red-fg">ValueError</span>                                Traceback (most recent call last)
-<span class="ansi-green-fg">/var/folders/9d/64h6bpdx6wld4v9tw1jq1yqr0000gp/T/ipykernel_2627/3303668206.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-fg">/var/folders/9d/64h6bpdx6wld4v9tw1jq1yqr0000gp/T/ipykernel_2690/3303668206.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
 <span class="ansi-green-intense-fg ansi-bold">      1</span> <span class="ansi-red-fg">####### check that gazebos arent just easier to learn than beaches ######</span>
 <span class="ansi-green-fg">----&gt; 2</span><span class="ansi-red-fg"> </span>print<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">&#39;beachs vs gaxebos ttest: &#39;</span><span class="ansi-blue-fg">,</span>stats<span class="ansi-blue-fg">.</span>ttest_rel<span class="ansi-blue-fg">(</span>np<span class="ansi-blue-fg">.</span>nanmean<span class="ansi-blue-fg">(</span>meanAcc_learned<span class="ansi-blue-fg">[</span>category_learned<span class="ansi-blue-fg">==</span><span class="ansi-cyan-fg">0</span><span class="ansi-blue-fg">]</span><span class="ansi-blue-fg">,</span><span class="ansi-cyan-fg">1</span><span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">,</span>np<span class="ansi-blue-fg">.</span>nanmean<span class="ansi-blue-fg">(</span>meanAcc_learned<span class="ansi-blue-fg">[</span>category_learned<span class="ansi-blue-fg">==</span><span class="ansi-cyan-fg">1</span><span class="ansi-blue-fg">]</span><span class="ansi-blue-fg">,</span><span class="ansi-cyan-fg">1</span><span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">,</span>nan_policy<span class="ansi-blue-fg">=</span><span class="ansi-blue-fg">&#39;omit&#39;</span><span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">)</span>
 <span class="ansi-green-intense-fg ansi-bold">      3</span> fig <span class="ansi-blue-fg">=</span> plt<span class="ansi-blue-fg">.</span>figure<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">)</span>
@@ -16298,10 +16298,10 @@ Familiar vs unfamiliar block 1 acc ttest:  [-0.55035   0.586444]
 
 </div>
 
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[32]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">os</span>
@@ -16312,42 +16312,6 @@ Familiar vs unfamiliar block 1 acc ttest:  [-0.55035   0.586444]
      </div>
 </div>
 </div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>[NbConvertApp] Converting notebook marshmalloogalooAnalysis.ipynb to html
-[NbConvertApp] Writing 808605 bytes to marshmalloogalooAnalysis.html
-</pre>
-</div>
-</div>
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[32]:</div>
-
-
-
-
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>0</pre>
-</div>
-
-</div>
-
-</div>
-
 </div>
 
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
